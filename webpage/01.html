@@ -10,12 +10,49 @@
             font-size: 30pt;
             text-shadow:5px 5px 10px burlywood;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            text-align:center
+            text-align: center;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
         }
+        .AC{
+            color:#776E1C;
+            font-size: 25pt;
+            font-family:input-mono;
+            display:block;
+            margin:20px 0;
+        }
+        img {
+            height:1080px;
+            width:505.5px;
+        }
+        .img-container{
+        position:absolute;
+        display:inline-block;
+        }
+        #오스트리아{
+            float:left;
+        }
+        #아일랜드{
+            float:right;
+        }
+        #그림자{
+            height:317px;
+            width: 990px;
+            clear:both;
+            display:block;
+            margin:0 auto;
+        }
+      
     </style>
 </head>
 <body>
-    <div class="box"></div>
+    <img src="오스트리아 도서관.jpg" id="오스트리아">  
+    <img src="아일랜드 도서관.jpg" id="아일랜드">
+    <img src="그림자 이미지.jpg" id="그림자">
     <h1 class="TC">LIBRARY</h1>
+    <h2 class="AC">도<br>서<br>관<br>찾<br>기<br></h2>
+    <h2 class="AC">도<br>서<br>추<br>천<br></h2>
 </body>
 </html>
