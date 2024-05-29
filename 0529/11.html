@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            width:960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #menu{
+            width:260px;
+            float: left;
+        }
+
+        #section{
+            width: 700px;
+            float: right;
+        }
+        li{
+            list-style: none;
+        }
+        @media  screen and (max-width: 767px){
+            body{
+                width: auto;
+            }
+            #menu{
+                width: 260px;
+                float: left;
+            }
+
+            #section{
+                width: 700px;
+                float: right;
+            }
+        }
+            
+    </style>
+</head>
+<body>
+    <div id="menu">
+         <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+         </ul>
+    </div>
+    <div id="section">
+        <h1>반응형 웹 패턴 3(왼쪽 메뉴가 아래쪽으로 이동)</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim minus omnis harum odio beatae dolorum nostrum, provident aspernatur debitis qui quos sequi itaque ipsa est eum labore dolores atque eveniet.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sequi natus quisquam sapiente corrupti nesciunt culpa excepturi ullam veniam non deleniti, vero dolore eaque exercitationem deserunt alias molestiae. Unde, mollitia.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam quisquam, omnis pariatur perspiciatis quas veniam aspernatur, maiores laboriosam vel voluptas ipsa minima commodi ipsam. Qui quaerat iusto ut ad quisquam.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates debitis non molestias, optio iste magni aspernatur consectetur autem dolorum facere quas totam nihil veritatis rerum laborum asperiores eligendi. Voluptatibus, obcaecati.
+        </p>
+    </div>
+</body>
+</html>
